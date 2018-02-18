@@ -52,6 +52,52 @@ body{
                 height: 16px;
             }
         
+            .add{
+                .hidden{
+                    width: 290px;
+                    height: 35px;
+                    border-bottom:1px solid gray;
+                    background-color:white;
+                    position: fixed;
+                    right:144px;
+                    top:57%;
+                    display: none;
+
+                .addpeople{
+                    width: 220px;
+                    height: 20px;
+                    border:1px solid black;
+                    margin-top:6px;
+                    margin-left: 3px;
+                    font-size:13px;
+                    padding-left: 2px;
+                }
+            
+                .done{
+                    width: auto;
+                    height: 25px;
+                    background-color: #4267B2;
+                    vertical-align: center;
+                    margin-left: 4px;
+                    border:none;
+                    border-radius: 2px;
+                    color:white;
+                    font-weight:2px;
+                }
+             }
+            &:hover{
+                .hidden{
+                    display: block;
+                }
+            }
+
+            }
+
+
+
+
+
+
         .settings{
             .sopt{
                 width:190px;
@@ -95,36 +141,7 @@ body{
 
     }
 
-    .hidden{
-        width: 290px;
-        height: 35px;
-        border-bottom:1px solid gray;
-        background-color:white;
-        position: fixed;
-        display: none;
-
-    .addpeople{
-        width: 220px;
-        height: 20px;
-        border:1px solid black;
-        margin-top:6px;
-        margin-left: 3px;
-        font-size:13px;
-        padding-left: 2px;
-    }
-
-    .done{
-        width: auto;
-        height: 25px;
-        background-color: #4267B2;
-        vertical-align: center;
-        margin-left: 4px;
-        border:none;
-        border-radius: 2px;
-        color:white;
-        font-weight:2px;
-    }
- }
+    
 
     .chatspace{
         background-color:rgb(255, 255, 255); 
